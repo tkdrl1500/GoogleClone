@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0;
+}
+
+.title__items {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 8px;
+}
+
+.headerBtn:hover {
+  cursor: pointer;
+}
+
+.title__item {
+  margin-right: 24px;
+}
+
+.title__itemsBtn {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.title__item a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.title__myPage {
+  border: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+}
+
+.title__itemMenu {
+  margin-right: 12px;
+}
+
+.title__myPage span {
+  color: white;
+  position: relative;
+  font-size: 17px;
+  bottom: 26px;
+}
+
+.title__myPage i {
+  font-size: 32px;
+}
