@@ -52,3 +52,14 @@
 .title__myPage i {
   font-size: 32px;
 }
+
+.title__logo {
+  height: 162.4px;
+  text-align: center;
+}
+
+.title__logo img {
+  width: 272px;
+  height: 92px;
+  margin-top: 70.4px;
+}
