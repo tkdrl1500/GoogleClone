@@ -11,8 +11,21 @@
   padding: 8px;
 }
 
-.headerBtn:hover {
+.hoverBtn:hover {
   cursor: pointer;
+}
+
+.title__itemMenu .hoverBtn:hover {
+  background-color: rgba(240, 248, 255, 0.733);
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
+.title__itemMenu .hoverBtn:hover + .title__itemsBtn {
+  position: relative;
+  top: 4px;
+  left: 9px;
 }
 
 .title__item {
@@ -62,4 +75,47 @@
   width: 272px;
   height: 92px;
   margin-top: 70.4px;
+}
+
+#searchBar {
+  width: 447px;
+  height: 44px;
+  border: none;
+  font-size: 16px;
+}
+
+#searchBar:focus {
+  outline: none;
+}
+
+.search_item {
+  border: 1px solid #dfe1e5;
+  width: 584px;
+  height: 46px;
+  border-radius: 27px;
+  margin: auto;
+}
+
+.search_item:hover {
+  box-shadow: 1px 1px 3px 1px gray;
+}
+
+.search_item label {
+  position: relative;
+  right: 8px;
+}
+
+.search_item .keyMic {
+  position: relative;
+  left: 4px;
+  top: 3px;
+}
+
+.search_item .fa-search {
+  font-size: 15px;
+  color: #9aa0a6;
+}
+
+.keyMic .fa-keyboard {
+  margin-right: 16px;
 }

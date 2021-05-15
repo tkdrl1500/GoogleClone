@@ -17,22 +17,23 @@
   <body>
     <div>
       <div>
+        <!-- Navigation bar -->
         <header>
           <section>
             <ul class="title__items">
-              <li class="title__item headerBtn">
+              <li class="title__item hoverBtn">
                 <a href=""><span>Vmail</span></a>
               </li>
-              <li class="title__item headerBtn">
+              <li class="title__item hoverBtn">
                 <a href=""><span>이미지</span></a>
               </li>
               <li class="title__itemMenu">
-                <button class="title__itemsBtn headerBtn">
+                <button class="title__itemsBtn hoverBtn">
                   <span><i class="fas fa-th"></i></span>
                 </button>
               </li>
               <li class="title__itemName">
-                <button class="title__myPage headerBtn">
+                <button class="title__myPage hoverBtn">
                   <i class="fas fa-circle"></i>
                   <span>sk</span>
                 </button>
@@ -42,15 +43,28 @@
         </header>
         <div>
           <div>
+            <!-- Logo Img -->
             <section>
               <div class="title__logo">
-                <img src="/img/voogle.png" alt="Logo" />
+                <img class="hoverBtn" src="/img/voogle.png" alt="Logo" />
               </div>
             </section>
-            <section>
-              <div>
-                <input type="text" />
-              </div>
+            <!-- Input bar -->
+            <section style="text-align: center; padding: 20px">
+              <form>
+                <div>
+                  <div class="search_item">
+                    <label for="searchBar">
+                      <i class="fas fa-search"></i>
+                    </label>
+                    <input type="text" id="searchBar" />
+                    <span class="keyMic">
+                      <i class="fas fa-keyboard"></i>
+                      <i class="fas fa-microphone-alt"></i>
+                    </span>
+                  </div>
+                </div>
+              </form>
             </section>
             <section>
               <div>
