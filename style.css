@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0;
+  background: rgb(232, 233, 235);
 }
 
 .title__items {
@@ -56,6 +57,7 @@
 }
 
 .title__myPage span {
+  background: black;
   color: white;
   position: relative;
   font-size: 17px;
@@ -89,7 +91,7 @@
 }
 
 .search_item {
-  border: 1px solid #dfe1e5;
+  border: 1px solid #292a2b;
   width: 584px;
   height: 46px;
   border-radius: 27px;
