@@ -12,21 +12,19 @@
   padding: 8px;
 }
 
+.title__items li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .hoverBtn:hover {
   cursor: pointer;
 }
 
-.title__itemMenu .hoverBtn:hover {
-  background-color: rgba(240, 248, 255, 0.733);
+.title__itemMenu:hover {
+  background-color: rgba(174, 180, 174, 0.534);
   border-radius: 50%;
-  width: 36px;
-  height: 36px;
-}
-
-.title__itemMenu .hoverBtn:hover + .title__itemsBtn {
-  position: relative;
-  top: 4px;
-  left: 9px;
 }
 
 .title__item {
@@ -46,6 +44,8 @@
 }
 
 .title__myPage {
+  position: relative;
+  top: 4px;
   border: none;
   background-color: transparent;
   width: 40px;
@@ -53,7 +53,8 @@
 }
 
 .title__itemMenu {
-  margin-right: 12px;
+  width: 40px;
+  height: 40px;
 }
 
 .title__myPage span {
@@ -162,8 +163,8 @@
 
 .iconBtn {
   position: relative;
-  left: 25px;
-  bottom: 16px;
+  left: 32px;
+  bottom: 12px;
   height: 15px;
   font-size: 14px;
   border: none;
