@@ -121,3 +121,75 @@
 .keyMic .fa-keyboard {
   margin-right: 16px;
 }
+
+.icons {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 112px;
+  height: 112px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  background-color: rgba(174, 180, 174, 0.534);
+}
+
+.icon_circle {
+  width: 48px;
+  height: 48px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: #292a2b;
+}
+
+.iconImg {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.iconBtn {
+  position: relative;
+  left: 25px;
+  bottom: 16px;
+  height: 15px;
+  font-size: 14px;
+  border: none;
+  opacity: 0;
+  transition: all 300ms ease-in-out;
+}
+
+.icon.first:hover .iconBtn.first {
+  opacity: 1;
+}
+
+.icon.second:hover .iconBtn.second {
+  opacity: 1;
+}
+
+.iconTexts {
+  background-color: whitesmoke;
+  text-align: center;
+  width: 104px;
+  height: 42px;
+  margin-top: 8px;
+  border-radius: 14px;
+}
+
+.iconText {
+  font-size: 16.25px;
+  background-color: whitesmoke;
+  vertical-align: -webkit-baseline-middle;
+}
