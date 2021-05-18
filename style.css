@@ -2,7 +2,11 @@
   box-sizing: border-box;
   padding: 0px;
   margin: 0;
+}
+
+body {
   background: rgb(232, 233, 235);
+  min-height: 100vh;
 }
 
 .title__items {
@@ -193,4 +197,67 @@
   font-size: 16.25px;
   background-color: whitesmoke;
   vertical-align: -webkit-baseline-middle;
+}
+
+.middleImg {
+  background-image: url("https://source.unsplash.com/category/nature/1600x900");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 176px;
+  width: 176px;
+}
+
+.modalMiddle {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.modal_middleImg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.modalBack {
+  display: none;
+  width: 800px;
+  height: 520px;
+  margin: auto;
+  background-color: #5b5e61;
+  border-radius: 8px;
+  position: absolute;
+  top: 93px;
+  left: 0px;
+  right: 0px;
+}
+
+.modal__imgs {
+  width: 568.237px;
+  height: 372px;
+  overflow: auto;
+}
+
+.middleItem {
+  margin-bottom: 16px;
+}
+
+.bodyHidden {
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.modalFan {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.modalFan_btn {
+  border: none;
+}
+
+.modalOut {
+  padding: 8px 16px;
+  border-radius: 6px;
 }

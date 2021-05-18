@@ -11,7 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
+    <script src="main.js" defer></script>
     <title>Document</title>
   </head>
   <body>
@@ -104,6 +104,61 @@
               </ul>
             </section>
           </div>
+        </div>
+        <div class="modalFan">
+          <button class="modalFan_btn">
+            <i style="font-size: 16px" class="fas fa-pen"></i>
+          </button>
+        </div>
+      </div>
+      <!-- 모달창 -->
+      <div class="modalBack">
+        <div>
+          <!-- 모달창 top -->
+          <div style="width: 800px; height: 80px">
+            <div style="position: relative; top: 36px; left: 230px">
+              페이지 맞춤설정
+            </div>
+          </div>
+          <!-- 모달창 moddle -->
+          <ul class="modalMiddle">
+            <li style="width: 231.762px">
+              <section>
+                <ul style="list-style: none">
+                  <li class="middleItem">배경</li>
+                  <li class="middleItem">바로가기</li>
+                  <li class="middleItem">색상 및 테마</li>
+                </ul>
+              </section>
+            </li>
+            <li class="modal__imgs">
+              <section>
+                <ul class="modal_middleImg">
+                  <li class="middleImg"></li>
+                  <li class="middleImg"></li>
+                  <li class="middleImg"></li>
+                  <li class="middleImg"></li>
+                  <li class="middleImg"></li>
+                  <li class="middleImg"></li>
+                  <li class="middleImg"></li>
+                  <li class="middleImg"></li>
+                  <li class="middleImg"></li>
+                  <li class="middleImg"></li>
+                  <li class="middleImg"></li>
+                  <li class="middleImg"></li>
+                </ul>
+              </section>
+            </li>
+          </ul>
+          <!-- 모달창 bottom -->
+          <section style="height: 64px">
+            <div style="text-align: end; padding: 16px">
+              <button class="modalOut">취소</button>
+              <button style="padding: 8px 16px; border-radius: 6px">
+                완료
+              </button>
+            </div>
+          </section>
         </div>
       </div>
     </div>
