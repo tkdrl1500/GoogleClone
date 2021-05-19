@@ -7,6 +7,8 @@
 body {
   background: rgb(232, 233, 235);
   min-height: 100vh;
+  font-family: Roboto, "Segoe UI", Arial, "Malgun Gothic", Gulim, sans-serif;
+  font-size: 81.25%;
 }
 
 .nav__items {
