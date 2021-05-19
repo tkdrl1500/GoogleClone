@@ -9,14 +9,14 @@ body {
   min-height: 100vh;
 }
 
-.title__items {
+.nav__items {
   display: flex;
   justify-content: flex-end;
   list-style: none;
   padding: 8px;
 }
 
-.title__items li {
+.nav__items li {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,28 +26,33 @@ body {
   cursor: pointer;
 }
 
-.title__itemMenu:hover {
+.nav__itemMenu {
+  width: 40px;
+  height: 40px;
+}
+
+.nav__itemMenu:hover {
   background-color: rgba(174, 180, 174, 0.534);
   border-radius: 50%;
 }
 
-.title__item {
+.nav__item {
   margin-right: 24px;
 }
 
-.title__itemsBtn {
-  border: none;
-  background-color: transparent;
-  font-size: 18px;
-}
-
-.title__item a {
+.nav__item a {
   text-decoration: none;
   color: black;
   font-size: 13px;
 }
 
-.title__myPage {
+.nav__itemsBtn {
+  border: none;
+  background-color: transparent;
+  font-size: 18px;
+}
+
+.nav__myPage {
   position: relative;
   top: 4px;
   border: none;
@@ -56,12 +61,7 @@ body {
   height: 40px;
 }
 
-.title__itemMenu {
-  width: 40px;
-  height: 40px;
-}
-
-.title__myPage span {
+.nav__myPage span {
   background: black;
   color: white;
   position: relative;
@@ -69,7 +69,7 @@ body {
   bottom: 26px;
 }
 
-.title__myPage i {
+.nav__myPage i {
   font-size: 32px;
 }
 
@@ -213,10 +213,11 @@ body {
   list-style: none;
 }
 
-.modal_middleImg {
+.modalMiddle__img {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  list-style: none;
 }
 
 .modalBack {
@@ -232,14 +233,28 @@ body {
   right: 0px;
 }
 
-.modal__imgs {
+.modalMiddle__imgs {
   width: 568.237px;
   height: 372px;
   overflow: auto;
 }
 
-.middleItem {
+.modalMiddle__item {
   margin-bottom: 16px;
+  width: 192px;
+  height: 32px;
+}
+
+.modalMiddle__item:hover {
+  background-color: #3a3b3bc9;
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.modalMiddle__item .fas,
+.modalMiddle__item .far {
+  margin-left: 24px;
+  margin-right: 8px;
 }
 
 .bodyHidden {
@@ -257,7 +272,17 @@ body {
   border: none;
 }
 
-.modalOut {
+.modalBottom {
+  height: 64px;
+}
+
+.modalBottom__CheckOut {
+  text-align: end;
+  padding: 16px;
+}
+
+.modalBottom__out,
+.modalBottom__check {
   padding: 8px 16px;
   border-radius: 6px;
 }

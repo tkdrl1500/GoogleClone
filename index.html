@@ -17,23 +17,25 @@
   <body>
     <div>
       <div>
+        <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡTopㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ- -->
+
         <!-- Navigation bar -->
-        <header>
+        <header class="nav">
           <section>
-            <ul class="title__items">
-              <li class="title__item hoverBtn">
-                <a href=""><span>Vmail</span></a>
+            <ul class="nav__items">
+              <li class="nav__item hoverBtn">
+                <a href="#"><span>Vmail</span></a>
               </li>
-              <li class="title__item hoverBtn">
-                <a href=""><span>이미지</span></a>
+              <li class="nav__item hoverBtn">
+                <a href="#"><span>이미지</span></a>
               </li>
-              <li class="title__itemMenu">
-                <button class="title__itemsBtn hoverBtn">
+              <li class="nav__itemMenu">
+                <button class="nav__itemsBtn hoverBtn">
                   <span><i class="fas fa-th"></i></span>
                 </button>
               </li>
-              <li class="title__itemName">
-                <button class="title__myPage hoverBtn">
+              <li class="nav__itemName">
+                <button class="nav__myPage hoverBtn">
                   <i class="fas fa-circle"></i>
                   <span>sk</span>
                 </button>
@@ -41,6 +43,8 @@
             </ul>
           </section>
         </header>
+
+        <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡMiddleㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ- -->
         <div>
           <div>
             <!-- Logo Img -->
@@ -105,13 +109,16 @@
             </section>
           </div>
         </div>
+
+        <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡBottomㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ- -->
         <div class="modalFan">
-          <button class="modalFan_btn">
+          <button class="modalFan_btn hoverBtn">
             <i style="font-size: 16px" class="fas fa-pen"></i>
           </button>
         </div>
       </div>
-      <!-- 모달창 -->
+
+      <!-- ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ모달창ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ- -->
       <div class="modalBack">
         <div>
           <!-- 모달창 top -->
@@ -120,43 +127,53 @@
               페이지 맞춤설정
             </div>
           </div>
+
           <!-- 모달창 moddle -->
           <ul class="modalMiddle">
             <li style="width: 231.762px">
               <section>
                 <ul style="list-style: none">
-                  <li class="middleItem">배경</li>
-                  <li class="middleItem">바로가기</li>
-                  <li class="middleItem">색상 및 테마</li>
+                  <li class="modalMiddle__item hoverBtn">
+                    <i class="far fa-image"></i>
+                    <span>배경</span>
+                  </li>
+                  <li class="modalMiddle__item hoverBtn">
+                    <i class="fas fa-link"></i>
+                    <span>바로가기</span>
+                  </li>
+                  <li class="modalMiddle__item hoverBtn">
+                    <i class="fas fa-palette"></i>
+                    <span>색상 및 테마</span>
+                  </li>
                 </ul>
               </section>
             </li>
-            <li class="modal__imgs">
+
+            <li class="modalMiddle__imgs">
               <section>
-                <ul class="modal_middleImg">
-                  <li class="middleImg"></li>
-                  <li class="middleImg"></li>
-                  <li class="middleImg"></li>
-                  <li class="middleImg"></li>
-                  <li class="middleImg"></li>
-                  <li class="middleImg"></li>
-                  <li class="middleImg"></li>
-                  <li class="middleImg"></li>
-                  <li class="middleImg"></li>
-                  <li class="middleImg"></li>
-                  <li class="middleImg"></li>
-                  <li class="middleImg"></li>
+                <ul class="modalMiddle__img">
+                  <li class="middleImg hoverBtn"></li>
+                  <li class="middleImg hoverBtn"></li>
+                  <li class="middleImg hoverBtn"></li>
+                  <li class="middleImg hoverBtn"></li>
+                  <li class="middleImg hoverBtn"></li>
+                  <li class="middleImg hoverBtn"></li>
+                  <li class="middleImg hoverBtn"></li>
+                  <li class="middleImg hoverBtn"></li>
+                  <li class="middleImg hoverBtn"></li>
+                  <li class="middleImg hoverBtn"></li>
+                  <li class="middleImg hoverBtn"></li>
+                  <li class="middleImg hoverBtn"></li>
                 </ul>
               </section>
             </li>
           </ul>
+
           <!-- 모달창 bottom -->
-          <section style="height: 64px">
-            <div style="text-align: end; padding: 16px">
-              <button class="modalOut">취소</button>
-              <button style="padding: 8px 16px; border-radius: 6px">
-                완료
-              </button>
+          <section class="modalBottom">
+            <div class="modalBottom__CheckOut">
+              <button class="modalBottom__out hoverBtn">취소</button>
+              <button class="modalBottom__check hoverBtn">완료</button>
             </div>
           </section>
         </div>
